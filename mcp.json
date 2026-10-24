@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "openrevenue": {
+      "type": "http",
+      "url": "https://mcp.openrevenue.com/mcp"
+    }
+  }
+}

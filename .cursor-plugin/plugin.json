@@ -1,0 +1,25 @@
+{
+  "name": "openrevenue",
+  "displayName": "OpenRevenue",
+  "version": "1.1.1",
+  "description": "Ask Cursor about your OpenRevenue analytics — traffic, sources, funnels, and visitors via hosted MCP.",
+  "author": {
+    "name": "Egger & Co",
+    "email": "support@openrevenue.com"
+  },
+  "homepage": "https://www.openrevenue.com/docs/api/mcp#cursor",
+  "repository": "https://github.com/eggerco/openrevenue-cursor-plugin",
+  "license": "MIT",
+  "keywords": [
+    "analytics",
+    "web-analytics",
+    "traffic",
+    "funnels",
+    "mcp",
+    "openrevenue"
+  ],
+  "category": "integrations",
+  "tags": ["analytics", "mcp", "openrevenue"],
+  "logo": "assets/logo.svg",
+  "mcpServers": "./mcp.json"
+}
