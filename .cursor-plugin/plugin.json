@@ -4,7 +4,7 @@
   "version": "1.1.1",
   "description": "Ask Cursor about your OpenRevenue analytics — traffic, sources, funnels, and visitors via hosted MCP.",
   "author": {
-    "name": "Egger & Co",
+    "name": "Egger, Inc.",
     "email": "support@openrevenue.com"
   },
   "homepage": "https://www.openrevenue.com/docs/api/mcp#cursor",
@@ -18,8 +18,6 @@
     "mcp",
     "openrevenue"
   ],
-  "category": "integrations",
-  "tags": ["analytics", "mcp", "openrevenue"],
   "logo": "assets/logo.svg",
   "mcpServers": "./mcp.json"
 }

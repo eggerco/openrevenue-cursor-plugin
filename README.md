@@ -6,18 +6,17 @@ traffic, sources, funnels, and visitors for sites you can access.
 
 ## Install
 
-1. Open **Cursor Settings → Plugins** (or [cursor.com/marketplace](https://cursor.com/marketplace)).
-2. Install **OpenRevenue** (or add this repository when reviewing a submission).
+1. Open **Cursor Settings → Plugins** (or browse the [Cursor Marketplace](https://cursor.com/marketplace)).
+2. Install **OpenRevenue**.
 3. Enable the MCP server and complete the OAuth connect flow when prompted.
 
-Product docs: [openrevenue.com/docs/api/mcp#cursor](https://www.openrevenue.com/docs/api/mcp#cursor)
-
-Community listing (until Marketplace approval): [cursor.directory/plugins/openrevenue](https://cursor.directory/plugins/openrevenue)
+Docs: [openrevenue.com/docs/api/mcp#cursor](https://www.openrevenue.com/docs/api/mcp#cursor)
 
 ### Optional: API key
 
-If you prefer a key instead of OAuth, create one under **Account → API** in
-OpenRevenue and add a manual MCP entry with:
+Prefer a key instead of OAuth? Create one under **Account → API** in OpenRevenue,
+then add a **separate** manual MCP server entry (plugin-managed MCP config is
+read-only) with:
 
 ```http
 Authorization: Bearer openrevenue_…
@@ -27,7 +26,7 @@ Authorization: Bearer openrevenue_…
 
 | Component | Purpose |
 | --- | --- |
-| MCP | Hosted Streamable HTTP MCP at `https://mcp.openrevenue.com/mcp` |
+| MCP | Hosted HTTP MCP at `https://mcp.openrevenue.com/mcp` |
 | Skills | `traffic-overview`, `traffic-sources`, `funnel-health` |
 | Commands | `ask-traffic`, `top-referrers`, `list-sites` |
 
@@ -43,7 +42,6 @@ Skills and commands only use numbers returned by MCP tools — they never invent
 ## Local development
 
 ```bash
-# Copy into Cursor’s local plugin folder (do not symlink outside that folder)
 mkdir -p ~/.cursor/plugins/local/openrevenue
 rsync -a --delete ./ ~/.cursor/plugins/local/openrevenue/ \
   --exclude .git --exclude scripts
@@ -51,16 +49,9 @@ rsync -a --delete ./ ~/.cursor/plugins/local/openrevenue/ \
 
 Then **Developer: Reload Window** → Customize, and confirm skills / MCP appear.
 
-Validate this package against the official template checks:
-
 ```bash
 node scripts/validate-template.mjs
 ```
-
-## Marketplace submission
-
-Submit this public repository at
-[cursor.com/marketplace/publish](https://cursor.com/marketplace/publish).
 
 ## License
 
