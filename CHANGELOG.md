@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.1
+
+- New logo: the white OpenRevenue mark on orange.
+
 ## 1.2.0
 
 - New skills: `visitor-activity` (recent visitors and journeys), `site-performance` (Core Web Vitals) and `manage-goals-and-funnels` (view goals; create, change or delete goals and funnels with confirmation).
