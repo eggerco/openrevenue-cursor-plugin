@@ -27,7 +27,7 @@ Authorization: Bearer openrevenue_…
 | Component | Purpose |
 | --- | --- |
 | MCP | Hosted HTTP MCP at `https://mcp.openrevenue.com/mcp` |
-| Skills | `traffic-overview`, `traffic-sources`, `funnel-health` |
+| Skills | `traffic-overview`, `traffic-sources`, `funnel-health`, `visitor-activity`, `site-performance`, `manage-goals-and-funnels` |
 | Commands | `ask-traffic`, `top-referrers`, `list-sites` |
 
 Skills and commands only use numbers returned by MCP tools — they never invent metrics.
@@ -38,6 +38,9 @@ Skills and commands only use numbers returned by MCP tools — they never invent
 - What are the top referrers for my project in the last 30 days?
 - Show funnel conversion for my signup funnel this month.
 - List my OpenRevenue projects.
+- Who visited my site in the last 24 hours?
+- Are my site's Core Web Vitals good this week?
+- Which goals are set up on my site?
 
 ## Local development
 
