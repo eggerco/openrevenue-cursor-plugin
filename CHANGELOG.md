@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.2
+
+- Documentation links point straight to docs.openrevenue.com.
+
 ## 1.2.1
 
 - New logo: the white OpenRevenue mark on orange.
