@@ -10,7 +10,7 @@ traffic, sources, funnels, and visitors for sites you can access.
 2. Install **OpenRevenue**.
 3. Enable the MCP server and complete the OAuth connect flow when prompted.
 
-Docs: [openrevenue.com/docs/api/mcp#cursor](https://www.openrevenue.com/docs/api/mcp#cursor)
+Docs: [docs.openrevenue.com/api/mcp#cursor](https://docs.openrevenue.com/api/mcp#cursor)
 
 ### Optional: API key
 
